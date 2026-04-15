@@ -65,7 +65,6 @@ main{
     background-image: url(../assets/images/background-header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
- 
     flex-direction: column;
    
 }
@@ -87,3 +86,40 @@ p{
     font-style: 18px;
     font-weight: 400;
 }
+
+/* Contato */
+
+section{
+    margin: 64px;
+    align-content: center;
+    font-style: 18px;
+    font-weight: 400;
+}
+section > h5{
+    margin-bottom: 16px;
+    font-style: 16px;
+    font-weight: 700;
+}
+section > h2{
+    margin-bottom: 24px;
+    font-style: 56px;
+    font-weight: 700;
+}
+
+div > label{
+display: block;
+}
+
+div > input{
+    padding-bottom: 8px;
+    width: 560px;
+    height:48px ;
+    border: 1px solid black;
+}
+
+ div > textarea {
+    margin-bottom: 8px;
+    border: 1px solid black;
+    height: 180px;
+    width: 560px;
+  }
