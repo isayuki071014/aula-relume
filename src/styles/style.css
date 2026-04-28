@@ -127,7 +127,7 @@ div > input{
     width: 560px;
   }
 .terms{
-    margin: 64px;
+    margin-left: 64px;
     display: flex;
     align-items: flex-start;
     margin-bottom: 34px;
