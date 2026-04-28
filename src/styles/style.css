@@ -31,6 +31,7 @@ nav > button{
     justify-content: center;
     align-items: center;
     gap: 16px;
+    border: none;
 }
 button > p {
     font-size: 16px;
@@ -91,9 +92,11 @@ p{
 
 section{
     margin: 64px;
+    margin-bottom: 24px;
     align-content: center;
     font-style: 18px;
     font-weight: 400;
+    flex-direction: column;
 }
 section > h5{
     margin-bottom: 16px;
@@ -122,6 +125,24 @@ div > input{
     border: 1px solid black;
     height: 180px;
     width: 560px;
+  }
+.terms{
+    margin: 64px;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 34px;
+    gap: 10px;
+
+}
+
+.terms >  p{
+    size: 14;
+}
+
+.btn-contact{
+    margin-left: 64px;
+    background-color: black;
+    color: rgb(255, 255, 255);
   }
   /* Footer */
   footer{
@@ -155,4 +176,5 @@ div > input{
 .footer-bottom > a{
     text-decoration: underline;
     font-size: 14;
+    margin-top: 32px;
 }
